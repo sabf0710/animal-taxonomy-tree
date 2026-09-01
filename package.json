@@ -1,0 +1,13 @@
+{
+  "name": "animal-taxonomy-tree",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interactive, collapsible animal taxonomy tree (kingdom to family) built with d3-org-chart",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "d3-org-chart": "^3.1.1"
+  }
+}

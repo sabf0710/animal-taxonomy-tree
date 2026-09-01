@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Animal taxonomy tree</title>
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-org-chart@3"></script>
+    <style src="./src/style.css"></style>
+</head>
+
+<body>
+ 
+<div id="header">
+    <h1>Animal Taxonomy | Overview Tree</h1>
+    <p>A working chart from kingdom down through class, order, and family. Click any card for a short summary and source link; click the collapse arrow to expand deeper branches.</p>
+    <div id="legend">
+        <div class="legend-item"><span class="legend-swatch"></span>Kingdom</div>
+        <div class="legend-item"><span class="legend-swatch"></span>Phylum</div>
+        <div class="legend-item"><span class="legend-swatch"></span>Class</div>
+        <div class="legend-item"><span class="legend-swatch"></span>Order</div>
+        <div class="legend-item"><span class="legend-swatch"></span>Family</div>
+    </div>
+</div>
+ 
+<div id="chart-container"></div>
+ 
+<div id="info-panel">
+    <button class="close-btn" id="panel-close">&times;</button>
+    <div class="panel-rank" id="panel-rank"></div>
+    <div class="panel-image"><img id="panel-img" src="" alt="" /></div>
+    <h2 id="panel-name"></h2>
+    <div class="panel-common" id="panel-common"></div>
+    <div class="panel-tldr" id="panel-tldr"></div>
+    <div class="panel-source">Source: <a id="panel-source" href="#" target="_blank" rel="noopener"></a></div>
+</div>
+
+<script src="./data/chart.js"></script>
+
+</body>
+</html>
