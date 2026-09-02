@@ -4,21 +4,26 @@
     <meta charset="UTF-8" />
     <title>Animal taxonomy tree</title>
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-flextree@2"></script>
     <script src="https://cdn.jsdelivr.net/npm/d3-org-chart@3"></script>
-    <style src="./src/style.css"></style>
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 
 <body>
  
 <div id="header">
-    <h1>Animal Taxonomy | Overview Tree</h1>
-    <p>A working chart from kingdom down through class, order, and family. Click any card for a short summary and source link; click the collapse arrow to expand deeper branches.</p>
+    <div class="info">
+        <h1>Animal Taxonomy Tree</h1>
+        <p>by <button id="credits-trigger" class="credits-trigger-btn">Siti Faisal</button></p>
+    </div>
+
+    <p>An overview tree of animal taxonomy from kingdom down through family. <br>Click any card for a short summary and source links; click the <span class="toggle-arrow">&#x276f;</span> arrows to expand/collapse branches.</p>
     <div id="legend">
-        <div class="legend-item"><span class="legend-swatch"></span>Kingdom</div>
-        <div class="legend-item"><span class="legend-swatch"></span>Phylum</div>
-        <div class="legend-item"><span class="legend-swatch"></span>Class</div>
-        <div class="legend-item"><span class="legend-swatch"></span>Order</div>
-        <div class="legend-item"><span class="legend-swatch"></span>Family</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:var(--kingdom-l)"></span>Kingdom</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:var(--phylum-l)"></span>Phylum</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:var(--class-l)"></span>Class</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:var(--order-l)"></span>Order</div>
+        <div class="legend-item"><span class="legend-swatch" style="background:var(--family-l)"></span>Family</div>
     </div>
 </div>
  
@@ -31,10 +36,67 @@
     <h2 id="panel-name"></h2>
     <div class="panel-common" id="panel-common"></div>
     <div class="panel-tldr" id="panel-tldr"></div>
-    <div class="panel-source">Source: <a id="panel-source" href="#" target="_blank" rel="noopener"></a></div>
+
+    <div class="panel-section" id="panel-image-credit-section">
+        <div class="panel-section-label">Image credit</div>
+        <div class="panel-image-credit" id="panel-image-credit"></div>
+    </div>
+
+    <div class="panel-section">
+        <div class="panel-section-label">Sources</div>
+        <ul class="panel-source-list" id="panel-source-list"></ul>
+    </div>
 </div>
 
-<script src="./data/chart.js"></script>
+<div id="credits-backdrop">
+    <div id="credits-modal">
+
+        <div class="credits-header">
+            <p class="credits-title">Credits</p>
+            <button class="credits-close" id="credits-close" aria-label="Close">&times;</button>
+        </div>
+
+        <div class="credits-tabs">
+            <button class="credits-tab active" data-tab="about">About</button>
+            <button class="credits-tab" data-tab="images">Images</button>
+            <button class="credits-tab" data-tab="sources">Sources</button>
+        </div>
+
+        <div class="credits-body">
+            <div class="credits-panel active" id="tab-about">
+                <p class="credits-label">What is This?</p>
+                <p class="credits-entry">
+                    An overview tree of animal taxonomy built to make scientific names and relationships easy to browse without needing to hover for context.
+
+                <p class="credits-label">What for?</p>
+                <p class="credits-entry">
+                    Taxonomic classification isn't as settled as most charts tend to imply. Sources disagree on how many classes and phyla exist in Animalia; the number of animal classes alone ranges from 100 to 107 depending on the source, as new genetic evidence reshapes old groupings.
+                    <br><br>
+                    This chart doesn't try to resolve that disagreement. Instead, <a href="https://www.catalogueoflife.org/" target="_blank" rel="noopener">Catalogue of Life</a> and <a href="https://eol.org/" target="_blank" rel="noopener">Encyclopedia of Life</a> are used as primary references, with every taxon cited individually. Images sit on the card itself, so you're not left guessing what <i>Cetartiodactyla</i> looks like.
+                </p>
+
+                <hr style="margin-top: 40px; border: 1px dotted var(--line)">
+
+                <p class="credits-label">Languages & Libraries</p>
+                <p class="credits-entry">HTML, CSS, JavaScript</p>
+                <ul class="credits-tools-list" id="credits-tools-list"></ul>
+
+                <p class="credits-label">Repository</p>
+                <p class="credits-entry">
+                    <b>Github</b> <a href="https://github.com/sabf0710/animal-taxonomy-tree">&#64;sabf0710/animal-taxonomy-tree</a> 
+                </p>
+                <p class="credits-entry" id="credits-timeline"></p>
+            </div>
+
+            <div class="credits-panel" id="tab-images"></div>
+            <div class="credits-panel" id="tab-sources"></div>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="./src/chart.js"></script>
 
 </body>
 </html>
