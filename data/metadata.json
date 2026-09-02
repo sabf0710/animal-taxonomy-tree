@@ -1,0 +1,16 @@
+{
+  "firstPub": "2026 September 1",
+  "lastEdit": "2026 September 2",
+  "tools": [
+    { 
+        "name": "d3-org-chart", 
+        "author": "David B", 
+        "url": "https://www.npmjs.com/package/d3-org-chart"
+    },
+    { 
+        "name": "D3.js", 
+        "author": "Mike Bostock", 
+        "url": "https://d3js.org/what-is-d3"
+    }
+  ]
+}
