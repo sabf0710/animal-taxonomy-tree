@@ -1,9 +1,9 @@
 const RANK_COLORS = {
     Kingdom: { text: "var(--kingdom)", bg: "var(--paper)" },
-    Phylum: { text: "var(--phylum)", bg: "var(--phylum-bg)" },
-    Class: { text: "var(--class)", bg: "var(--class-bg)" },
-    Order: { text: "var(--order)", bg: "var(--order-bg)" },
-    Family: { text: "var(--family)", bg: "var(--family-bg)" },
+    Phylum:  { text: "var(--phylum)",  bg: "var(--phylum-bg)" },
+    Class:   { text: "var(--class)",   bg: "var(--class-bg)" },
+    Order:   { text: "var(--order)",   bg: "var(--order-bg)" },
+    Family:  { text: "var(--family)",  bg: "var(--family-bg)" },
 };
 
 function initial(name) {
