@@ -7,36 +7,519 @@
     "commonName": "Animals",
     "image": "images/animalia.jpg",
     "tldr": "Multicellular organisms that eat other organisms for energy, most can move, and most develop from an embryo",
-    "source": "https://www.catalogueoflife.org/data/taxon/N"
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Animalia. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/N"
+      }
+    ],
+    "imageCredit": {
+      "author": "rawpixel.com on Magnific",
+      "url": "https://www.magnific.com/free-photo/cover-history-earth-animated-nature-1820-by-oliver-goldsmith_3533764.htm#fromView=keyword&page=1&position=0&uuid=43ed7f93-8ac5-49f3-bfce-afeb9ce4c83a&track=ais_hybrid&query=Animal+kingdom+art"
+    }
   },
-
-  { "id": "chordata", "parentId": "animalia", "rank": "Phylum", "name": "Chordata", "commonName": "Chordates", "image": "images/chordata.jpg", "tldr": "Animals with a spinal cord (or its precursor) at some life stage; includes all vertebrates", "source": "https://www.catalogueoflife.org/data/taxon/6224G" },
-  { "id": "arthropoda", "parentId": "animalia", "rank": "Phylum", "name": "Arthropoda", "commonName": "Arthropods", "image": "images/arthropoda.jpg", "tldr": "Jointed-leg invertebrates with an exoskeleton; insects, arachnids, crustaceans, myriapods. Most diverse animal phylum by far", "source": "https://www.catalogueoflife.org/data/taxon/6224Z" },
-  { "id": "mollusca", "parentId": "animalia", "rank": "Phylum", "name": "Mollusca", "commonName": "Molluscs", "image": "images/mollusca.jpg", "tldr": "Soft-bodied invertebrates, often shelled; snails, clams, squid, octopuses", "source": "https://www.catalogueoflife.org/data/taxon/622BX" },
-  { "id": "cnidaria", "parentId": "animalia", "rank": "Phylum", "name": "Cnidaria", "commonName": "Cnidarians", "image": "images/cnidaria.jpg", "tldr": "Simple aquatic animals with stinging cells; jellyfish, corals, sea anemones", "source": "https://www.catalogueoflife.org/data/taxon/622K3" },
-  { "id": "echinodermata", "parentId": "animalia", "rank": "Phylum", "name": "Echinodermata", "commonName": "Echinoderms", "image": "images/echinodermata.jpg", "tldr": "Marine animals with 5-part radial symmetry as adults; starfish, sea urchins, sea cucumbers", "source": "https://www.catalogueoflife.org/data/taxon/622N5" },
-  { "id": "annelida", "parentId": "animalia", "rank": "Phylum", "name": "Annelida", "commonName": "Segmented worms", "image": "images/annelida.jpg", "tldr": "Worms built from repeating body segments; earthworms, leeches, marine bristle worms", "source": "https://www.catalogueoflife.org/data/taxon/6224X" },
-  { "id": "porifera", "parentId": "animalia", "rank": "Phylum", "name": "Porifera", "commonName": "Sponges", "image": "images/porifera.jpg", "tldr": "The simplest animals; no true tissues or organs, filter water through pores to feed", "source": "https://www.catalogueoflife.org/data/taxon/622K7" },
-
-  { "id": "mammalia", "parentId": "chordata", "rank": "Class", "name": "Mammalia", "commonName": "Mammals", "image": "images/mammalia.jpg", "tldr": "Warm-blooded, hairy, feed young on milk. Includes humans, whales, bats, elephants", "source": "https://www.catalogueoflife.org/data/taxon/6224T" },
-  { "id": "aves", "parentId": "chordata", "rank": "Class", "name": "Aves", "commonName": "Birds", "image": "images/aves.jpg", "tldr": "Feathered, egg-laying, warm-blooded; most can fly, all evolved from theropod dinosaurs", "source": "https://www.catalogueoflife.org/data/taxon/QSX" },
-  { "id": "reptilia", "parentId": "chordata", "rank": "Class", "name": "Reptilia", "commonName": "Reptiles", "image": "images/reptilia.jpg", "tldr": "Cold-blooded, scaled, mostly egg-laying; snakes, lizards, turtles, crocodilians", "source": "https://www.catalogueoflife.org/data/taxon/QSF" },
-  { "id": "amphibia", "parentId": "chordata", "rank": "Class", "name": "Amphibia", "commonName": "Amphibians", "image": "images/amphibia.jpg", "tldr": "Cold-blooded, usually water-dependent for reproduction; frogs, salamanders, caecilians", "source": "https://www.catalogueoflife.org/data/taxon/QRT" },
-  { "id": "actinopterygii", "parentId": "chordata", "rank": "Class", "name": "Actinopterygii", "commonName": "Ray-finned fish", "image": "images/actinopterygii.jpg", "tldr": "Fish with fins supported by bony spines; the vast majority of living fish species", "source": "https://www.catalogueoflife.org/data/taxon/6224Y" },
-  { "id": "chondrichthyes", "parentId": "chordata", "rank": "Class", "name": "Chondrichthyes", "commonName": "Cartilaginous fish", "image": "images/chondrichthyes.jpg", "tldr": "Fish with skeletons made of cartilage, not bone; sharks, rays, skates", "source": "https://www.catalogueoflife.org/data/taxon/622B8" },
-
-  { "id": "insecta", "parentId": "arthropoda", "rank": "Class", "name": "Insecta", "commonName": "Insects", "image": "images/insecta.jpg", "tldr": "Six-legged arthropods, usually with wings; over half of all described animal species", "source": "https://www.catalogueoflife.org/data/taxon/6225B" },
-  { "id": "arachnida", "parentId": "arthropoda", "rank": "Class", "name": "Arachnida", "commonName": "Arachnids", "image": "images/arachnida.jpg", "tldr": "Eight-legged arthropods with no antennae; spiders, scorpions, ticks, mites", "source": "https://www.catalogueoflife.org/data/taxon/622C5" },
-  { "id": "malacostraca", "parentId": "arthropoda", "rank": "Class", "name": "Malacostraca", "commonName": "Higher crustaceans", "image": "images/malacostraca.jpg", "tldr": "The largest crustacean class; crabs, lobsters, shrimp, krill, woodlice", "source": "https://www.catalogueoflife.org/data/taxon/622GQ" },
-  { "id": "diplopoda", "parentId": "arthropoda", "rank": "Class", "name": "Diplopoda", "commonName": "Millipedes", "image": "images/diplopoda.jpg", "tldr": "Arthropods with two pairs of legs per body segment; slow-moving detritivores", "source": "https://www.catalogueoflife.org/data/taxon/622GY" },
-
-  { "id": "primates", "parentId": "mammalia", "rank": "Order", "name": "Primates", "commonName": "Primates", "image": "images/primates.jpg", "tldr": "Mammals with forward-facing eyes and grasping hands; monkeys, apes, humans, lemurs", "source": "https://www.catalogueoflife.org/data/taxon/622J4" },
-  { "id": "carnivora", "parentId": "mammalia", "rank": "Order", "name": "Carnivora", "commonName": "Carnivorans", "image": "images/carnivora.jpg", "tldr": "Mammals with specialized shearing teeth; most eat meat, though some (like pandas) don't", "source": "https://www.catalogueoflife.org/data/taxon/622G9" },
-  { "id": "cetartiodactyla", "parentId": "mammalia", "rank": "Order", "name": "Cetartiodactyla", "commonName": "Even-toed ungulates & whales", "image": "images/cetartiodactyla.jpg", "tldr": "Hoofed mammals with an even number of toes, plus whales and dolphins; they nest inside this same order because whales evolved from a hoofed ancestor", "source": "https://www.catalogueoflife.org/data/taxon/6225R" },
-  { "id": "rodentia", "parentId": "mammalia", "rank": "Order", "name": "Rodentia", "commonName": "Rodents", "image": "images/rodentia.jpg", "tldr": "Mammals with continuously growing front teeth for gnawing; over 40% of all mammal species", "source": "https://www.catalogueoflife.org/data/taxon/622KM" },
-  { "id": "chiroptera", "parentId": "mammalia", "rank": "Order", "name": "Chiroptera", "commonName": "Bats", "image": "images/chiroptera.jpg", "tldr": "The only mammals capable of true, sustained flight", "source": "https://www.catalogueoflife.org/data/taxon/622F9" },
-
-  { "id": "canidae", "parentId": "carnivora", "rank": "Family", "name": "Canidae", "commonName": "Dogs & relatives", "image": "images/canidae.jpg", "tldr": "Dog-like carnivorans; wolves, foxes, jackals, domestic dogs", "source": "https://www.catalogueoflife.org/data/taxon/622D8" },
-  { "id": "felidae", "parentId": "carnivora", "rank": "Family", "name": "Felidae", "commonName": "Cats", "image": "images/felidae.jpg", "tldr": "Obligate carnivores with retractable claws; lions, tigers, domestic cats", "source": "https://www.catalogueoflife.org/data/taxon/622EF" },
-  { "id": "ursidae", "parentId": "carnivora", "rank": "Family", "name": "Ursidae", "commonName": "Bears", "image": "images/ursidae.jpg", "tldr": "Large, mostly omnivorous carnivorans with a stocky build and short tail", "source": "https://www.catalogueoflife.org/data/taxon/622QY" }
+  {
+    "id": "chordata",
+    "parentId": "animalia",
+    "rank": "Phylum",
+    "name": "Chordata",
+    "commonName": "Chordates",
+    "image": "images/chordata.jpg",
+    "tldr": "Animals with a spinal cord (or its precursor) at some life stage; includes all vertebrates",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Chordata. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/6224G"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "arthropoda",
+    "parentId": "animalia",
+    "rank": "Phylum",
+    "name": "Arthropoda",
+    "commonName": "Arthropods",
+    "image": "images/arthropoda.jpg",
+    "tldr": "Jointed-leg invertebrates with an exoskeleton; insects, arachnids, crustaceans, myriapods. Most diverse animal phylum by far",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Arthropoda. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/6224Z"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "mollusca",
+    "parentId": "animalia",
+    "rank": "Phylum",
+    "name": "Mollusca",
+    "commonName": "Molluscs",
+    "image": "images/mollusca.jpg",
+    "tldr": "Soft-bodied invertebrates, often shelled; snails, clams, squid, octopuses",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Mollusca. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622BX"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "cnidaria",
+    "parentId": "animalia",
+    "rank": "Phylum",
+    "name": "Cnidaria",
+    "commonName": "Cnidarians",
+    "image": "images/cnidaria.jpg",
+    "tldr": "Simple aquatic animals with stinging cells; jellyfish, corals, sea anemones",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Cnidaria. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622K3"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "echinodermata",
+    "parentId": "animalia",
+    "rank": "Phylum",
+    "name": "Echinodermata",
+    "commonName": "Echinoderms",
+    "image": "images/echinodermata.jpg",
+    "tldr": "Marine animals with 5-part radial symmetry as adults; starfish, sea urchins, sea cucumbers",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Echinodermata. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622N5"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "annelida",
+    "parentId": "animalia",
+    "rank": "Phylum",
+    "name": "Annelida",
+    "commonName": "Segmented worms",
+    "image": "images/annelida.jpg",
+    "tldr": "Worms built from repeating body segments; earthworms, leeches, marine bristle worms",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Annelida. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/6224X"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "porifera",
+    "parentId": "animalia",
+    "rank": "Phylum",
+    "name": "Porifera",
+    "commonName": "Sponges",
+    "image": "images/porifera.jpg",
+    "tldr": "The simplest animals; no true tissues or organs, filter water through pores to feed",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Porifera. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622K7"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "mammalia",
+    "parentId": "chordata",
+    "rank": "Class",
+    "name": "Mammalia",
+    "commonName": "Mammals",
+    "image": "images/mammalia.jpg",
+    "tldr": "Warm-blooded, hairy, feed young on milk. Includes humans, whales, bats, elephants",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Mammalia. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/6224T"
+      },
+      {
+        "citation": "Encyclopedia of Life. (2026). Mammalia. EOL",
+        "url": "https://eol.org/pages/1642"
+      }
+    ],
+    "imageCredit": {
+      "author": "Example Photographer",
+      "license": "CC BY-SA 4.0",
+      "url": "https://commons.wikimedia.org/wiki/File:Example_Mammalia.jpg"
+    }
+  },
+  {
+    "id": "aves",
+    "parentId": "chordata",
+    "rank": "Class",
+    "name": "Aves",
+    "commonName": "Birds",
+    "image": "images/aves.jpg",
+    "tldr": "Feathered, egg-laying, warm-blooded; most can fly, all evolved from theropod dinosaurs",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Aves. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/QSX"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "reptilia",
+    "parentId": "chordata",
+    "rank": "Class",
+    "name": "Reptilia",
+    "commonName": "Reptiles",
+    "image": "images/reptilia.jpg",
+    "tldr": "Cold-blooded, scaled, mostly egg-laying; snakes, lizards, turtles, crocodilians",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Reptilia. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/QSF"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "amphibia",
+    "parentId": "chordata",
+    "rank": "Class",
+    "name": "Amphibia",
+    "commonName": "Amphibians",
+    "image": "images/amphibia.jpg",
+    "tldr": "Cold-blooded, usually water-dependent for reproduction; frogs, salamanders, caecilians",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Amphibia. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/QRT"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "actinopterygii",
+    "parentId": "chordata",
+    "rank": "Class",
+    "name": "Actinopterygii",
+    "commonName": "Ray-finned fish",
+    "image": "images/actinopterygii.jpg",
+    "tldr": "Fish with fins supported by bony spines; the vast majority of living fish species",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Actinopterygii. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/6224Y"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "chondrichthyes",
+    "parentId": "chordata",
+    "rank": "Class",
+    "name": "Chondrichthyes",
+    "commonName": "Cartilaginous fish",
+    "image": "images/chondrichthyes.jpg",
+    "tldr": "Fish with skeletons made of cartilage, not bone; sharks, rays, skates",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Chondrichthyes. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622B8"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "insecta",
+    "parentId": "arthropoda",
+    "rank": "Class",
+    "name": "Insecta",
+    "commonName": "Insects",
+    "image": "images/insecta.jpg",
+    "tldr": "Six-legged arthropods, usually with wings; over half of all described animal species",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Insecta. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/6225B"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "arachnida",
+    "parentId": "arthropoda",
+    "rank": "Class",
+    "name": "Arachnida",
+    "commonName": "Arachnids",
+    "image": "images/arachnida.jpg",
+    "tldr": "Eight-legged arthropods with no antennae; spiders, scorpions, ticks, mites",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Arachnida. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622C5"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "malacostraca",
+    "parentId": "arthropoda",
+    "rank": "Class",
+    "name": "Malacostraca",
+    "commonName": "Higher crustaceans",
+    "image": "images/malacostraca.jpg",
+    "tldr": "The largest crustacean class; crabs, lobsters, shrimp, krill, woodlice",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Malacostraca. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622GQ"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "diplopoda",
+    "parentId": "arthropoda",
+    "rank": "Class",
+    "name": "Diplopoda",
+    "commonName": "Millipedes",
+    "image": "images/diplopoda.jpg",
+    "tldr": "Arthropods with two pairs of legs per body segment; slow-moving detritivores",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Diplopoda. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622GY"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "primates",
+    "parentId": "mammalia",
+    "rank": "Order",
+    "name": "Primates",
+    "commonName": "Primates",
+    "image": "images/primates.jpg",
+    "tldr": "Mammals with forward-facing eyes and grasping hands; monkeys, apes, humans, lemurs",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Primates. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622J4"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "carnivora",
+    "parentId": "mammalia",
+    "rank": "Order",
+    "name": "Carnivora",
+    "commonName": "Carnivorans",
+    "image": "images/carnivora.jpg",
+    "tldr": "Mammals with specialized shearing teeth; most eat meat, though some (like pandas) don't",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Carnivora. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622G9"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "cetartiodactyla",
+    "parentId": "mammalia",
+    "rank": "Order",
+    "name": "Cetartiodactyla",
+    "commonName": "Even-toed ungulates & whales",
+    "image": "images/cetartiodactyla.jpg",
+    "tldr": "Hoofed mammals with an even number of toes, plus whales and dolphins; they nest inside this same order because whales evolved from a hoofed ancestor",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Cetartiodactyla. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/6225R"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "rodentia",
+    "parentId": "mammalia",
+    "rank": "Order",
+    "name": "Rodentia",
+    "commonName": "Rodents",
+    "image": "images/rodentia.jpg",
+    "tldr": "Mammals with continuously growing front teeth for gnawing; over 40% of all mammal species",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Rodentia. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622KM"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "chiroptera",
+    "parentId": "mammalia",
+    "rank": "Order",
+    "name": "Chiroptera",
+    "commonName": "Bats",
+    "image": "images/chiroptera.jpg",
+    "tldr": "The only mammals capable of true, sustained flight",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Chiroptera. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622F9"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "canidae",
+    "parentId": "carnivora",
+    "rank": "Family",
+    "name": "Canidae",
+    "commonName": "Dogs & relatives",
+    "image": "images/canidae.jpg",
+    "tldr": "Dog-like carnivorans; wolves, foxes, jackals, domestic dogs",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Canidae. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622D8"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "felidae",
+    "parentId": "carnivora",
+    "rank": "Family",
+    "name": "Felidae",
+    "commonName": "Cats",
+    "image": "images/felidae.jpg",
+    "tldr": "Obligate carnivores with retractable claws; lions, tigers, domestic cats",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Felidae. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622EF"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  },
+  {
+    "id": "ursidae",
+    "parentId": "carnivora",
+    "rank": "Family",
+    "name": "Ursidae",
+    "commonName": "Bears",
+    "image": "images/ursidae.jpg",
+    "tldr": "Large, mostly omnivorous carnivorans with a stocky build and short tail",
+    "sources": [
+      {
+        "citation": "Catalogue of Life. (2026). Ursidae. Catalogue of Life",
+        "url": "https://www.catalogueoflife.org/data/taxon/622QY"
+      }
+    ],
+    "imageCredit": {
+      "author": "",
+      "license": "",
+      "url": ""
+    }
+  }
 ]
